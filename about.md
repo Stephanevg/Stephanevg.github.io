@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Stéphane is , Microsoft MVP in Cloud and Datacenter management (5th year now!) - or previously known as  powershell.
+He works as a Cloud and Devops engineer in an well known Swiss telecom company, and has more then 10 years of experience in implementing automated solutions. 
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+### Open source projects
+
+Stephane is owner of several open source projects, which are liste here under.
+- [PSTHML](https://www.Github.com/stephanevg/pshtml)
+- [PSClassUtils](https://www.Github.com/stephanevg/PSClassUtils)
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[Twitter:Stephanevg](https://www.twitter.com/stephanevg)
