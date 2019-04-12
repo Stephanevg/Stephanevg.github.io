@@ -5,9 +5,9 @@ title: How to write Powershell modules with classes
 
 working with Powershell Classes can be a bit tricky. There are multiple other edge cases that module / framework developers need to take into consideration when they want to add classes to their module / framework.
 
-In this article I will demonstrate what are the ways to organize code for a PowerShell modules that contains classes, functions and enums. I will demonstrate the advantages and drawbacks of each solution, and conclude with best practises based on my oown experience and failures. 
+In this article I will demonstrate what are the ways to organize code for a PowerShell modules that contains classes, functions and enums. I will demonstrate the advantages and drawbacks of each solution, and conclude with best practises based on my own experience and failures.
 
-I have found the perrfect solution (in my opinion), which works for every case, and today I will be sharing this with you.
+I have found the perfect solution (in my opinion), which works for every case, and today I will be sharing this with you.
 
 # Introduction
 
@@ -460,6 +460,6 @@ SRV-b7641dd4-14fa-4217-911e-2be15ec6a17b
 Et voila!
 
 
-We see that I created one new Servers, and one client. The exported function `New-computer` actually created an instance of `[computer]` class, which we can use in our script, and call existing properties or methods.
+We saw how I created one new Server, and one new client using classes nested in functions. The exported function `New-computer` actually created an instance of `[computer]` class, which we can use in our script, and call existing properties or methods.
 This works since the class and the function are both in the module scope. 
 
