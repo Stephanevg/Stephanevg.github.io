@@ -9,6 +9,27 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+/****/
+/* Custom */
+
+table{
+  border-collapse: collapse;
+  border-spacing: 8;
+  border:1px solid #000000;
+  
+}
+th{
+  border:2px solid #000000;
+  padding: 5px;
+}
+
+td{
+  border:1px solid #000000;
+  padding: 5px;
+}
+
+tr:hover {background-color: #f5f5f5;}
+
 /**************/
 /* BASE RULES */
 /**************/

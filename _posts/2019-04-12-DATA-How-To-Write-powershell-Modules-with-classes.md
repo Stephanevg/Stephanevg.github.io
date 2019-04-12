@@ -186,10 +186,10 @@ Using the `import-module` command, we have access to the same exported functions
 
 The following table summarized the difference in loading between `using module` and  ```import-module```.
 
-Command Type | Can be called anywere in script | internal functions | public functions | Enums | Classes
---- | --- | --- | --- | --- | ---
-Import-Module | Yes | No | Yes | No | No 
-using Module | No | No | Yes | Yes | Yes 
+| Command Type | Can be called anywere in script | internal functions | public functions | Enums | Classes |
+--- | --- | --- | --- | --- | --- |
+| Import-Module | Yes | No | Yes | No | No |
+| using Module | No | No | Yes | Yes | Yes |
 
 The two solutions have advantages and drawbacks.
 So, in both ways we don't have the same features covered.
