@@ -5,9 +5,9 @@ categories:  powershell class module
 tag: class module bestpractise
 ---
 
-working with Powershell Classes can be a bit tricky. There are multiple other edge cases that module / framework developers need to take into consideration when they want to add classes to their module / framework.
+Working with Powershell Classes can be tricky. There are multiple edge cases that module / framework developers need to take into consideration when they want to add classes to their project. Especially on how to make their classes available / consumable to end users.
 
-In this article I will demonstrate what are the ways to organize code for a PowerShell modules that contains classes, functions and enums. I will demonstrate the advantages and drawbacks of each solution, and conclude with best practises based on my own experience and failures.
+In this article I will demonstrate what are the ways to organize code for PowerShell modules that contains classes, functions and enums. I will demonstrate the advantages and drawbacks of each solution, and conclude with best practises based on my own experience and failures.
 
 I have found the perfect solution (in my opinion), which works for every case, and today I will be sharing this with you.
 
