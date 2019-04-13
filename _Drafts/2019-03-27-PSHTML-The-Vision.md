@@ -31,12 +31,12 @@ There is major refacotorings I am still willing to do:
 Currently (in version 0.7.3) All the html tags are generated using a private function, and all the logic is contained in that function. In version `7.0`I have introduced a dependency on `Powershell version 5.1 (or higher)` with the introduction of the Charting functionality, which is almost 100% build of classes. Although there is nothing wrong with the current implementation, I think that refactoring the way we generate the HTML tags with classes  will make any further additions easier, as we would have the possibility to use OOP methodologies like inheritance and Polymorphism. 
 
 
-But PSHTML is still a young module, and it has so much groth potential, that I get really excited about it each time I think of it.
+But PSHTML is still a young module, and it has so much growth potential, that I get really excited about it each time I think of it.
 
 
 # The bigger picture
 
-`PSHTML` in it own is great to generate static webpages. And it does it pretty well. The second logical step would be to enable dynmaic rendering scenarios. As PSHTML generates HTML content on the fly and simply returns it to whoever asks for it,  this second step can be done pretty easily using one of multiple technologies.
+`PSHTML` in it own is great to generate static webpages. And it does it pretty well. The second logical step would be to enable dynmaic rendering scenarios. As PSHTML generates HTML content on the fly and simply returns it to whoever asks for it,  this second step can be done pretty easily with various existing technologies.
 
 Some of the technologies that would support this would be the following ones:
 - Polaris
