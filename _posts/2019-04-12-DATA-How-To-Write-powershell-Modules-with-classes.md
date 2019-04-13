@@ -234,7 +234,7 @@ To summarize the features, have a look at the table below.
 
 Command Type | Has help | Is strongly typed | Can be trusted | is easy to use for developers | Import-module | Using module | Easy syntax for end user
 --- | --- | --- | --- | --- | --- | --- | ---
-Class | No | Yes | Yes | No | No | Yes | No
+Class | No | Yes | Yes | Yes | No | Yes | No
 Function| Yes | No | No | Yes | Yes | Yes | Yes
 
 Both ways have advantages and drawbacks. A function can contain help, it is easy to use. It works with `import-module` **and** `using module`. But **only** a class can be really trusted regarding it return values.
