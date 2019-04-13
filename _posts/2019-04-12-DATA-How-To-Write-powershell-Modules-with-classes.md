@@ -1,9 +1,12 @@
 ---
-layout: post
+layout: single
 title: How to write Powershell modules with classes
 categories:  powershell class module
 tag: class module bestpractise
+toc: true
+toc_sticky: true
 ---
+
 
 Working with Powershell Classes can be tricky. There are multiple edge cases that module / framework developers need to take into consideration when they want to add classes to their project. Especially on how to make their classes available / consumable to end users.
 
@@ -62,7 +65,7 @@ It contains an Enum, a Class, and two functions, but **only**  `Get-ComputerData
 
 > For this example, a module manifest is not necessary.
 
-## The `using module` statement
+### The `using module` statement
 
 The `using module` statement got added in Powershell version 5 (February 2016). It will load any class, Enum and exported function into the current session.
 
@@ -80,7 +83,7 @@ Using module c:/plop.psm1
 
 > The using statement **must** be located at the very top of your script. It also **must** be the very first statement of your script (Except of comments). This make **loading the module 'conditionally' impossible.**
 
-![using module statement](../images/using-modulestatementError.jpg)
+![using module statement](/images/using-modulestatementError.jpg)
 
 _Trying to load a module using `using module` in a script after a `Get-Service` call_
 
@@ -228,7 +231,7 @@ Now that we know the differences between `import-module` and `using module`, I w
 - To instanciate a class, the end-user needs to learn a new syntax (`[ComputerData]::New()`). A class can have overloaded constructors / methods. Not have any help, make things pretty difficult for the end user. In other words, the syntax of how to call a class **can** be an issue for end users.
 
 
-### Summary
+## Summary
 
 To summarize the features, have a look at the table below.
 
@@ -241,7 +244,7 @@ Both ways have advantages and drawbacks. A function can contain help, it is easy
 
 A class does **not** have any comment based help. On the other hand, people that want to keep using `import-module` are limited to using functions only, since classes and Enums are **not** loaded into the session with that command.
 
-# So how to get the best of the both worlds?
+# how to get the best of the both worlds?
 
 First, let's list all the positive points that we would like to have as user based on our comparaison from above.
 
@@ -469,6 +472,6 @@ This works since the class and the function are both in the module scope.
 
 I have summarized the complete concept from above on the following schema, because I think that most things are easier to understand, once you see an image of it:
 
-![ClassesInPowershell](../images/module-diagram.png)
+![ClassesInPowershell](/images/module-diagram.png)
 
 Cheers!
