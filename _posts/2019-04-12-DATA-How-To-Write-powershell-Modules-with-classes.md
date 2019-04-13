@@ -465,3 +465,10 @@ Et voila!
 We saw how I created one new Server, and one new client using classes nested in functions. The exported function `New-computer` actually created an instance of `[computer]` class, which we can use in our script, and call existing properties or methods.
 This works since the class and the function are both in the module scope. 
 
+## Class in modules schema
+
+I have summarized the complete concept from above on the following schema, because I think that most things are easier to understand, once you see an image of it:
+
+![ClassesInPowershell](../images/module-diagram.png)
+
+Cheers!
