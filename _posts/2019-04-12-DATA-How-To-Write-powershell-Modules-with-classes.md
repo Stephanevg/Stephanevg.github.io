@@ -1,6 +1,8 @@
 ---
 layout: post
 title: How to write Powershell modules with classes
+categories:  powershell class module
+tag: class module bestpractise
 ---
 
 working with Powershell Classes can be a bit tricky. There are multiple other edge cases that module / framework developers need to take into consideration when they want to add classes to their module / framework.
