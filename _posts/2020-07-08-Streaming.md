@@ -5,7 +5,7 @@ title: Starting to stream
 
 # Streaming
 
-[![StreamSchedule](https://github.com/Stephanevg/Streams/blob/master/CodingBrix%20-%20Twitch.png)](https://www.twitch.tv/stephane_vg)
+[![StreamSchedule](https://raw.githubusercontent.com/Stephanevg/Streams/master/CodingBrix%20-%20Twitch.png)](https://www.twitch.tv/stephane_vg)
 
 Hey guys, a short message to let you all know that I have decided to launch a streaming channel.
 
