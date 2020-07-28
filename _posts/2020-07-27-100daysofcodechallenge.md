@@ -1,8 +1,11 @@
 ---
-layout: posts
+layout: single
 title: 100 days of code challenge 
+categories:  streaming 100daysofcode
+tag: streaming 100daysofcode javascript golang csharp
+toc: true
+toc_sticky: true
 ---
-
 
 [![StreamSchedule](https://raw.githubusercontent.com/Stephanevg/Streams/master/CodingBrix%20-%20Twitch.png)](https://www.twitch.tv/codingbrix)
 
