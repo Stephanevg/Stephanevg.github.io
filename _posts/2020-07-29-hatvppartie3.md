@@ -1,7 +1,11 @@
----
-title: Live stream (fr): hatvp partie 3
-tag: livestream fr
 
+---
+layout: single 
+title: Live stream (fr): hatvp partie 3
+categories:  streaming livestream livestreamFR
+tag: streaming livestream livestreamFR
+toc: true
+toc_sticky: true 
 ---
 
 # FR
