@@ -1,4 +1,3 @@
-
 ---
 layout: single 
 title: Live stream (fr): hatvp partie 3
