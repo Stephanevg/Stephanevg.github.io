@@ -1,6 +1,6 @@
 ---
 layout: single 
-title: Live stream (fr): hatvp partie 3
+title: Live stream (fr) hatvp partie 3
 categories:  streaming livestream livestreamFR
 tag: streaming livestream livestreamFR
 toc: true
